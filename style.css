@@ -1,0 +1,1642 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+.first{
+    background-image: url("image/bg1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80px;
+}
+ul li a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.social1{
+    display: flex;
+    margin-bottom: 0;
+}
+.log{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+}
+.social1 li a{
+    font-size: 14px;
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: #152b5a;
+    transition: all 0.5s ease;
+}
+.social1 li a:hover{
+    border-radius: 10px 0 10px 0;
+    color: #ff9c34;
+}
+.numbers{
+    display: flex;
+    align-items: center;
+}
+.numbers h5{
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding: 0 5px;
+}
+.log-in{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    min-height: 80px;
+}
+.log-btn button{
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: 0.8s;
+}
+.log-btn button:hover{
+    border-radius: 0 20px 0 20px;
+    background-color: white;
+    color: #ff9c34;
+}
+.account button{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #ff9c34;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    transition: 0.8s;
+}
+.account button:hover{
+    border-radius: 50%;
+}
+
+.header{
+    position: relative;
+    right: 0;
+    left: 0;
+    background-color: white;
+    z-index: 5;
+}
+.menu-list{
+    display: flex;
+    margin-bottom: 0;
+}
+.menu-list li a{
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    transition: 0.5s;
+}
+.menu-list li a:hover{
+    color: #ff9c34;
+    text-decoration: none;
+}
+.icon{
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+    display: none;
+}
+.icon.close-btn{
+    position: absolute;
+    top: 14px;
+    right: 6%;
+    z-index: 5;
+}
+.icons{
+    display: flex;
+    margin-bottom: 0;
+}
+.icons li a{
+    margin: 0 10px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.icons li a:hover{
+    color: #ff9c34;
+}
+.world{
+    background-image: url("image/bg2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 698px;
+    text-align: center;
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 698px;
+}
+.welcome i{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+.welcome h1{
+    font-size: 72px;
+    font-weight: bold;
+    color: white;
+}
+.welcome h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.destinetion label{
+    font-size: 14px;
+    font-weight: bold;
+    color: #152b5a;
+}
+.destinetion input{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: none;
+    background-color: #f5eefd;
+}
+.journey{
+    position: absolute;
+    width: 90%;
+    z-index: 2;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px 0;
+}
+.jou{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -50px;
+}
+.find-btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+.find-btn button{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ff9c34;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    transition: 0.8s;
+}
+.find-btn button:hover{
+    border-radius: 50px;
+}
+
+.why{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1200px;
+}
+.why-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 1200px;
+}
+.why-content h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #152b5a;
+}
+.why-content h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: #ff9c34;
+}
+.why-content p{
+    font-size: 14px;
+    color: #152b5a;
+}
+.read-btn button{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #ff9c34;
+    color: #f5eefd;
+    border: none;
+    transition: 0.8s;
+    margin-bottom: 5%;
+}
+.read-btn button:hover{
+    border-radius: 20px 0 20px 0;
+    background-color: #152b5a;
+}
+.icons span img{
+    padding-right: 30px;
+}
+.icons-content h1{
+    font-size: 22px;
+    font-weight: bold;
+    color: #152b5a;
+}
+.icons-content p{
+    font-size: 14px;
+    color: #152b5a;
+}
+.why-img img{
+    width: 100%;
+    object-fit: cover;
+    margin-top: 30%;
+}
+
+.prepare{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+}
+.prepare-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 650px;
+}
+.prepare-img img{
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+}
+.prepare-content{
+    position: relative;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.prepare-content h4{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff9c34;
+    margin-bottom: 2%;
+}
+.prepare-content h2{
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 2%;
+}
+.prepare-content p{
+    font-size: 14px;
+    color: white;
+    margin-bottom: 5%;
+}
+.local{
+    background-color: white;
+    text-align: center;
+    padding: 10px 20px;
+    transition: 0.8s;
+}
+.local:hover{
+    border-radius: 50px 0 50px 0;
+}
+.local h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff9c34;
+}
+.local p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #152b5a;
+}
+
+.popular{
+    background-image: url("image/bg3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 970px;
+    text-align: center;
+}
+.popular-content{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.popular-content h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #152b5a;
+}
+.popular-content span{
+    color: #ff9c34;
+}
+.popular-content p{
+    font-size: 16px;
+    color: #152b5a;
+}
+.bali-img img{
+    width: 100%;
+    object-fit: cover;
+    transition: 0.8s;
+}
+.bali-img{
+    overflow: hidden;
+}
+.bali-img img:hover{
+    transform: scale(1.5);
+}
+.star1{
+    display: flex;
+    justify-content: space-between;
+}
+.star1 span{
+    color: #ff9c34;
+}
+.star{
+    display: flex;
+    align-items: center;
+}
+.star li{
+    color: #ff9c34;
+    padding-right: 5px;
+}
+.star span{
+    font-size: 12px;
+    color: #ff9c34;
+}
+.an-con h1{
+    font-size: 26px;
+    font-weight: bold;
+    color: #152b5a;
+    text-align: left;
+}
+.an-con p{
+    font-size: 12px;
+    color: #152b5a;
+    text-align: left;
+}
+.an-con2 h3{
+    font-size: 16px;
+    color: #152b5a;
+}
+.an-con2 h5{
+    font-size: 12px;
+    color: #152b5a;
+}
+.an{
+    display: flex;
+    justify-content: space-between;
+}
+.bali p{
+    font-size: 14px;
+    color: #152b5a;
+    text-align: left;
+}
+.airport{
+    display: flex;
+}
+.airport li{
+    font-size: 12px;
+    color: #152b5a;
+    padding-right:15px;
+}
+.book-btn button{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ff9c34;
+    color: white;
+    border: none;
+    padding: 5px 30px;
+    transition: 0.8s;
+}
+.book-btn button:hover{
+    border-radius: 0 50px 0 50px;
+}
+
+.travel{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1165px;
+}
+.travel-content{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.travel-content h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #152b5a;
+    text-align: center;
+}
+.travel-content span{
+    color: #ff9c34;
+}
+.galery-img img{
+    width: 100%;
+    margin: 10px;
+}
+.view-btn{
+    text-align: center;
+}
+.view-btn button{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ff9c34;
+    color: white;
+    border: none;
+    padding: 5px 30px;
+    transition: 0.8s;
+    margin-top: 5%;
+}
+.view-btn button:hover{
+    border-radius: 20px 0 20px 0;
+    background-color: #152b5a;
+}
+.trending{
+    background-image: url("image/bg3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 860px;
+    text-align: center;
+}
+.trending-content{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.trending-content h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #152b5a;
+}
+.trending-content span{
+    color: #ff9c34;
+}
+.trending-content p{
+    font-size: 16px;
+    color: #152b5a;
+}
+.london-img img{
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    border-radius: 5px;
+}
+.london-content{
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    text-align: left;
+}
+.london-content h1{
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+}
+.london-content p{
+    font-size: 16px;
+    color: white;
+}
+.maldives{
+    background-image: url("image/slider6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 480px;
+    text-align: left;
+    padding-top: 10%;
+}
+.maldives h1{
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 5%;
+    padding-left: 10%;
+}
+.maldives h5{
+    font-size: 12px;
+    color: white;
+    padding-bottom: 5%;
+    padding-left: 10%;
+}
+.maldives p{
+    font-size: 14px;
+    color: white;
+    padding-bottom: 5%;
+    padding-left: 10%;
+}
+.room{
+    display: flex;
+    font-size: 12px;
+    padding-bottom: 5%;
+    padding-left: 10%;
+}
+.room li{
+    padding-right: 10px;
+    color: white;
+}
+.maldives h2{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 5%;
+    padding-left: 10%;
+}
+.find-out-btn{
+    text-align: center;
+}
+.find-out-btn button{
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 30px;
+    color: #ff9c34;
+    transition: 0.8s;
+}
+.find-out-btn button:hover{
+    border-radius: 0 20px 0 20px;
+    background-color: #152b5a;
+}
+
+.our{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1100px;
+    text-align: center;
+}
+.our-content{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.our-content h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #152b5a;
+}
+.our-content span{
+    color: #ff9c34;
+}
+.our-content p{
+    font-size: 16px;
+    color: #152b5a;
+}
+.hotel{
+    border: 1px solid #f5eefd;
+    box-shadow: 1px 1px 10px 5px #f5eefd;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+.hotel img{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.hotel h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #152b5a;
+    margin-bottom: 2%;
+}
+.hotel p{
+    font-size: 14px;
+    color: #152b5a;
+    text-align: left;
+    padding-left: 15%;
+}
+.hotel h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ff9c34;
+    text-align: left;
+    padding-left: 15%;
+}
+
+.lorem{
+    background-image: url("image/bg4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 580px;
+}
+.lorem-img img{
+    width: 100%;
+    margin-top: 20%;
+}
+.lorem-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 580px;
+}
+.star2{
+    display: flex;
+}
+.star2 li{
+    font-size: 15px;
+    color: #ff9c34;
+}
+.lorem-content p{
+    font-size: 22px;
+    color: #152b5a;
+}
+.lorem-content h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #152b5a;
+}
+.lorem-content h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ff9c34;
+}
+
+.team{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 965px;
+    text-align: center;
+}
+.team-content{
+    padding: 10% 0;
+}
+.team-content h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #152b5a;
+}
+.team-content span{
+    color: #ff9c34;
+}
+.team-content p{
+    font-size: 16px;
+    color: #152b5a;
+}
+.con{
+    box-shadow: 1px 1px 10px 5px #eaeaea;
+}
+.con h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff9c34;
+    padding: 3% 0;
+}
+.con h2{
+    font-size: 16px;
+    color: #152b5a;
+    padding-bottom: 5%;
+}
+.andy-ing img{
+    width: 100%;
+    transition: 0.8s;
+}
+.andy-ing {
+    overflow: hidden;
+}
+.andy-ing img:hover{
+    transform: scale(1.5);
+}
+
+.tips{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1000px;
+    text-align: center;
+}
+.tips-content{
+    padding: 10% 0;
+}
+.tips-content h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #152b5a;
+}
+.tips-content span{
+    color: #ff9c34;
+}
+.tips-content p{
+    font-size: 16px;
+    color: #152b5a;
+}
+.tips-img img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.tip-content{
+    box-shadow: 1px 1px 10px 5px #eaeaea;
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    border-radius: 0 0 10px 10px;
+}
+.tip-content h5{
+    font-size: 15px;
+    color: #152b5a;
+}
+.tip-content h3{
+    font-size: 22px;
+    font-weight: 500;
+    color: #444444;
+}
+.tip-content p{
+    font-size: 14px;
+    color: #152b5a;
+}
+.tip-content span{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ff9c34;
+    cursor: pointer;
+}
+.dest{
+    box-shadow: 1px 1px 10px 5px #eaeaea;
+    text-align: left;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+.dest h5{
+    font-size: 15px;
+    color: #152b5a;
+    padding-bottom: 5%;
+}
+.dest h2{
+    font-size: 22px;
+    font-weight: 500;
+    color: #444444;
+    padding-bottom: 5%;
+}
+.dest p{
+    font-size: 14px;
+    color: #152b5a;
+}
+.dest span{
+    font-size: 16px;
+    color: #ff9c34;
+}
+
+.parntners{
+    background-image: url("image/bg3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 260px;
+    text-align: center;
+}
+.partners-content{
+    padding: 1% 0;
+}
+.partners-content h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #152b5a;
+}
+.partners-content span{
+    color: #ff9c34;
+}
+
+.footer{
+    background-image: url("image/bg5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 460px;
+}
+.worldfly-content h1{
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+}
+.worldfly p{
+    font-size: 14px;
+    color: white;
+}
+.worldfly span{
+    font-size: 14px;
+    font-weight: bold;
+    color: #ff9c34;
+    cursor: pointer;
+}
+.about li a{
+    font-size: 14px;
+    color: white;
+    transition: 0.8s;
+}
+.about li a:hover{
+    text-decoration: none;
+    color: #ff9c34;
+}
+.social{
+    display: flex;
+}
+.social li a{
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: white;
+    color: #152b5a;
+    transition: 0.8s;
+}
+.social li a:hover{
+    border-radius: 20px 0 20px 0;
+    background-color: #ff9c34;
+    color: white;
+}
+.sub{
+    display: flex;
+}
+.sub input{
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+}
+.sub button{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.9s;
+    padding: 5px 10px;
+}
+.sub button:hover{
+    border-radius: 50px;
+    background-color: #ff9c34;
+    color: white;
+    border-bottom: none;
+}
+.worldfly{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 460px;
+}
+.worldfly h6{
+    font-size: 14px;
+    color: white;
+}
+
+.copy{
+    background-image: url("image/bg6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 55px;
+    text-align: center;
+}
+.copy-content h1{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+.copy-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 55px;
+}
+@media(max-width:1200px){
+    .navbar .icons{
+        display: none;
+    }
+    .welcome h1 {
+        font-size: 71px;
+    }
+    .why-content p {
+        font-size: 12px;
+    }
+    .local p {
+        font-size: 14px;
+    }
+    .prepare-content p {
+        margin-bottom: 2%;
+    }
+    .bali p {
+        font-size: 12px;
+    }
+    .maldives {
+        min-height: 403px;
+        padding-top: 2%;
+    }
+    .hotel p{
+        font-size: 13px;
+    }
+    .lorem-content p {
+        font-size: 20px;
+    }
+    .lorem-img img {
+        margin-top: 30%;
+    }
+    .first{
+        display: none;
+    }
+    .destinetion input {
+        width: 100%;
+    }
+    .why-img img {
+        margin-top: 50%;
+    }
+   
+}
+@media(max-width:1024px){
+    .welcome h1 {
+    font-size: 70px;
+}
+.worldfly p {
+    font-size: 10px;
+    color: white;
+}
+.worldfly-content h1 {
+    font-size: 22px;
+}
+.dest h5 {
+    padding-bottom: 0;
+}
+}
+@media(max-width:991px){
+    .icon{
+        display: block;
+    }
+    .icon.hide{
+        display: none;
+    }
+    .menu-list{
+        position: fixed;
+        top: 15%;
+        height: 100vh;
+        left: -100%;
+        width: 100%;
+        max-width: 300px;
+        display: block;
+        background-color: white;
+        z-index: 2;
+        padding: 50px 0;
+        text-align: center;
+        transition: all 0.3s ease;
+        line-height: 70px;
+    }
+    .menu-list.active{
+    left: 0;
+  }
+  .welcome h1 {
+    font-size: 53px;
+}
+.jou {
+    margin-top: 0px;
+}
+.why {
+    margin-top: 50%;
+    text-align: center;
+}
+.icons-content{
+    text-align: left;
+}
+.icons {
+    justify-content: center;
+}
+.why-content {
+    min-height: auto;
+}
+.why-img img {
+    margin-top: 5%;
+}
+.local{
+    display: none;
+}
+.prepare-content h2 {
+    font-size: 38px;
+}
+.popular-content p {
+    font-size: 12px;
+}
+.an-con2 h5 {
+    font-size: 11px;
+}
+.bali p {
+    font-size: 9px;
+}
+.view-btn button{
+    margin-bottom: 5%;
+}
+.trending-content p {
+    font-size: 12px;
+}
+.maldives p {
+    font-size: 11px;
+}
+.maldives {
+    min-height: 297px;
+}
+.maldives h1 {
+    padding-bottom: 0;
+}
+.maldives h5 {
+    padding-bottom: 0;
+}
+.maldives p {
+    padding-bottom: 0;
+}
+.room {
+    padding-bottom: 0;
+}
+.maldives h2 {
+    padding-bottom: 0;
+}
+.our-content p {
+    font-size: 12px;
+}
+.hotel p{
+    text-align: center;
+    padding-left: 0;
+}
+.hotel h3 {
+    text-align: center;
+    padding-left: 0;
+}
+.lorem-content {
+    min-height: auto;
+    text-align: center;
+    padding: 5% 0;
+}
+.star2 {
+    justify-content: center;
+}
+.lorem-img img {
+    margin-top: 5%;
+}
+.team-content p {
+    font-size: 12px;
+}
+.team-img-con{
+    margin-bottom: 5%;
+}
+.tips-content p {
+    font-size: 12px;
+}
+.tip-content {
+    text-align: center;
+    padding-left: 0;
+}
+.dest {
+    text-align: center;
+    padding-left: 0;
+}
+.tips-img{
+    margin-bottom: 5%;
+}
+.worldfly {
+    min-height: auto;
+    margin-bottom: 5%;
+}
+.footer {
+    text-align: center;
+    padding: 5% 0;
+}
+.social {
+    justify-content: center;
+}
+.sub {
+    justify-content: center;
+}
+.worldfly p {
+    font-size: 15px;
+}
+.popular {
+    min-height: 740px;
+}
+}
+@media(max-width:912px){
+    .menu-list{
+        top: 6%;
+    }
+}
+@media(max-width:800px){
+    .menu-list{
+        top: 6%;
+    }
+}
+@media(max-width:768px){
+    .welcome h1 {
+    font-size: 38px;
+}
+.welcome h3 {
+    font-size: 22px;
+}
+.welcome {
+    min-height: auto;
+    padding: 5% 0;
+}
+.world {
+    min-height: 210px;
+}
+.why {
+    margin-top: 66%;
+}
+.prepare-content h2 {
+    font-size: 28px;
+}
+.prepare-content p {
+    font-size: 13px;
+}
+.prepare-content {
+    padding-top: 0;
+    padding-left: 0;
+}
+.prepare-img {
+    align-items: center;
+    min-height: auto;
+    padding: 10% 0;
+}
+.prepare {
+    min-height: 295px;
+}
+.popular-content p {
+    font-size: 9px;
+}
+.an {
+    flex-direction: column;
+}
+.an-con h1 {
+    text-align: center;
+}
+.bali p {
+    font-size: 11px;
+    text-align: center;
+}
+.star1 {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.owl-carousel .owl-stage-outer {
+    padding: 5% 0;
+}
+.trending-content p {
+    font-size: 9px;
+}
+.maldives p {
+    font-size: 7px;
+}
+.london-content h1 {
+    font-size: 17px;
+}
+.maldives h1 {
+    font-size: 17px;
+}
+.maldives h5 {
+    font-size: 10px;
+}
+.room {
+    font-size: 8px;
+}
+.maldives h2 {
+    font-size: 14px;
+}
+.find-out-btn button {
+    font-size: 15px;
+    padding: 0px 25px;
+}
+.maldives {
+    min-height: 217px;
+}
+.trending {
+    min-height: 490px;
+}
+.our-content p {
+    font-size: 9px;
+}
+.team-content p {
+    font-size: 9px;
+}
+.tips-content p {
+    font-size: 9px;
+}
+}
+@media(max-width:575px){
+    .welcome i {
+        font-size: 25px;
+    }
+    .welcome h1 {
+        font-size: 34px;
+    }
+    .welcome h3 {
+        font-size: 19px;
+    }
+    .prepare-content h2 {
+        font-size: 27px;
+    }
+    .prepare-content p {
+        font-size: 12px;
+    }
+    .galery-img img {
+        margin: 10px 0;
+    }
+    .why {
+        margin-top: 80%;
+    }
+    .popular-content h1 {
+        font-size: 36px;
+    }
+    .popular-content p {
+        font-size: 8px;
+    }
+    .airport {
+        justify-content: center;
+    }
+    .trending-content p {
+        font-size: 8px;
+    }
+    .maldives {
+        min-height: 598px;
+        text-align: center;
+        padding-top: 10%;
+    }
+    .room {
+        justify-content: center;
+        padding-left: 0;
+        font-size: 15px;
+        padding-bottom: 5%;
+    }
+    .maldives h1 {
+        padding-left: 0;
+        font-size: 45px;
+        padding-bottom: 5%;
+    }
+    .maldives h5 {
+        padding-left: 0;
+        font-size: 25px;
+        padding-bottom: 5%;
+    }
+    .maldives p {
+        padding-left: 0;
+        font-size: 15px;
+        padding-bottom: 5%;
+    }
+    .maldives h2 {
+        padding-left: 0;
+        font-size: 20px;
+        padding-bottom: 5%;
+    }
+    .find-out-btn button {
+        font-size: 18px;
+        padding: 5px 30px;
+    }
+    .london-content h1 {
+        font-size: 35px;
+    }
+    .london-content p {
+        font-size: 30px;
+    }
+    .our-content p {
+        font-size: 8px;
+    }
+    .team-content p {
+        font-size: 8px;
+    }
+}
+@media(max-width:480px){
+    .logo-img img{
+        width: 70%;
+    }
+    .menu-list {
+        top: 11%;
+    }
+    .welcome i {
+        font-size: 20px;
+    }
+    .welcome h1 {
+        font-size: 30px;
+    }
+    .welcome h3 {
+        font-size: 17px;
+    }
+    .why {
+        margin-top: 89%;
+    }
+    .why-content h2 {
+        font-size: 38px;
+    }
+    .why-content p {
+        font-size: 11px;
+    }
+    .icons-content h1 {
+        font-size: 18px;
+    }
+    .prepare-content h2 {
+        font-size: 22px;
+    }
+    .prepare-content p {
+        font-size: 11px;
+    }
+    .prepare-content h4 {
+        font-size: 20px;
+    }
+    .popular-content h1 {
+        font-size: 33px;
+    }
+    .popular-content p {
+        font-size: 7px;
+    }
+    .trending-content h1 {
+        font-size: 36px;
+        font-weight: bold;
+        color: #152b5a;
+    }
+    .trending-content p {
+        font-size: 7px;
+    }
+    .maldives {
+        min-height: 518px;
+    }
+    .our-content p {
+        font-size: 7px;
+    }
+    .lorem-content p {
+        font-size: 18px;
+    }
+    .team-content p {
+        font-size: 7px;
+    }
+    .tips-content p {
+        font-size: 7px;
+    }
+    .tip-content p {
+        font-size: 13px;
+    }
+    .dest p {
+        font-size: 13px;
+    }
+    .copy-content h1 {
+        font-size: 13px;
+    }
+}
+@media(max-width:420px){
+    .header .navbar {
+        padding: 0;
+    }
+    .welcome h1 {
+        font-size: 26px;
+    }
+    .welcome h3 {
+        font-size: 15px;
+    }
+    .welcome {
+        padding: 15% 0;
+    }
+    .why {
+        margin-top: 100%;
+    }
+    .journey {
+        width: 100%;
+        padding: 7px 0;
+    }
+    .why-content h2 {
+        font-size: 34px;
+    }
+    .why-content p {
+        font-size: 9px;
+    }
+    .find-btn button {
+        font-size: 15px;
+    }
+    .read-btn button {
+        font-size: 12px;
+    }
+    .icons-content h1 {
+        font-size: 15px;
+    }
+    .prepare-content h2 {
+        font-size: 19px;
+    }
+    .prepare-content p {
+        font-size: 9px;
+    }
+    .prepare-content h4 {
+        font-size: 18px;
+    }
+    .why {
+        min-height: 1075px;
+    }
+    .popular-content h1 {
+        font-size: 28px;
+    }
+    .popular-content p {
+        font-size: 6px;
+    }
+    .trending-content h1 {
+        font-size: 32px;
+    }
+    .trending-content p {
+        font-size: 6px;
+    }
+    .maldives h1 {
+        padding-left: 0;
+        font-size: 35px;
+        padding-bottom: 5%;
+    }
+    .maldives h5 {
+        padding-left: 0;
+        font-size: 20px;
+        padding-bottom: 0;
+    }
+    .maldives {
+        min-height: 462px;
+    }
+    .london-content h1 {
+        font-size: 30px;
+    }
+    .london-content p {
+        font-size: 25px;
+    }
+    .our-content p {
+        font-size: 6px;
+    }
+    .lorem-content p {
+        font-size: 15px;
+    }
+    .team-content h1 {
+        font-size: 37px;
+    }
+    .team-content p {
+        font-size: 6px;
+    }
+    .tips-content p {
+        font-size: 6px;
+    }
+    .tip-content h3 {
+        font-size: 20px;
+    }
+    .tip-content p {
+        font-size: 11px;
+    }
+    .dest h2 {
+        font-size: 20px;
+    }
+    .dest p {
+        font-size: 11px;
+    }
+    .worldfly-content h1 {
+        font-size: 18px;
+    }
+    .worldfly p {
+        font-size: 12px;
+    }
+    .copy-content h1 {
+        font-size: 12px;
+    }
+    .menu-list {
+        top: 7%;
+    }
+}
+@media(max-width:375px){
+    .logo-img img{
+        display: none;
+    }
+    .menu-list {
+        top: 0%;
+    }
+    .welcome i {
+        font-size: 15px;
+    }
+    .welcome h1 {
+        font-size: 21px;
+    }
+    .welcome h3 {
+        font-size: 11px;
+    }
+    .why-content p {
+        font-size: 7px;
+    }
+    .read-btn button {
+        padding: 5px 20px;
+    }
+    .icons-content h1 {
+        font-size: 11px;
+    }
+    .why {
+        min-height: 924px;
+    }
+    .prepare-content h2 {
+        font-size: 17px;
+    }
+    .prepare-content p {
+        font-size: 8px;
+    }
+    .prepare-content h4 {
+        font-size: 16px;
+    }
+    .popular-content h1 {
+        font-size: 24px;
+    }
+    .popular-content p {
+        font-size: 5px;
+    }
+    .trending-content h1 {
+        font-size: 26px;
+    }
+    .trending-content p {
+        font-size: 5px;
+    }
+    .maldives h1 {
+        padding-left: 0;
+        font-size: 30px;
+        padding-bottom: 5%;
+    }
+    .maldives h5 {
+        padding-left: 0;
+        font-size: 15px;
+        padding-bottom: 0;
+    }
+    .maldives p {
+        padding-left: 0;
+        font-size: 13px;
+        padding-bottom: 5%;
+    }
+    .room {
+        font-size: 13px;
+    }
+    .maldives h2 {
+        padding-left: 0;
+        font-size: 15px;
+        padding-bottom: 0;
+    }
+    .find-out-btn button {
+        font-size: 14px;
+        padding: 5px 30px;
+    }
+    .maldives {
+        min-height: 389px;
+    }
+    .our-content h1 {
+        font-size: 35px;
+    }
+    .our-content p {
+        font-size: 5px;
+    }
+    .lorem-content p {
+        font-size: 12px;
+    }
+    .team-content h1 {
+        font-size: 29px;
+    }
+    .team-content p {
+        font-size: 5px;
+    }
+    .tips-content p {
+        font-size: 5px;
+    }
+    .tip-content h3 {
+        font-size: 16px;
+    }
+    .tip-content p {
+        font-size: 9px;
+    }
+    .dest h2 {
+        font-size: 16px;
+    }
+    .dest p {
+        font-size: 9px;
+    }
+    .worldfly-content h1 {
+        font-size: 15px;
+    }
+    .worldfly p {
+        font-size: 10px;
+    }
+    .about li a {
+        font-size: 12px;
+    }
+    .copy-content h1 {
+        font-size: 9px;
+    }
+    .why-content h2 {
+        font-size: 29px;
+    }
+}
